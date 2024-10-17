@@ -11,4 +11,3 @@ func _physics_process(delta: float) -> void:
 func make_faster():
 	linear_velocity = Vector2.ZERO
 	paddle_speed *= multiplier
-	print_debug("Enemy speed: ", paddle_speed)
