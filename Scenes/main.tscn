@@ -33,16 +33,17 @@ position = Vector2(-1000, 0)
 [node name="Enemy" parent="." node_paths=PackedStringArray("ball") instance=ExtResource("2_045b2")]
 position = Vector2(1000, 0)
 script = ExtResource("3_brhbv")
-paddle_speed = 35000
+paddle_speed = 40000
 ball = NodePath("../Ball")
+multiplier = 1.1
 
 [node name="Ball" parent="." instance=ExtResource("4_dv0jo")]
 
 [node name="LeftEdge" parent="." instance=ExtResource("5_u3has")]
-position = Vector2(-1030, -7)
+position = Vector2(-999, 1.78814e-07)
 
 [node name="RightEdge" parent="." instance=ExtResource("5_u3has")]
-position = Vector2(1030, -47)
+position = Vector2(999, -4)
 
 [node name="Line2D" type="Line2D" parent="."]
 texture_repeat = 2

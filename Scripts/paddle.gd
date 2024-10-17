@@ -1,4 +1,5 @@
 extends RigidBody2D
+class_name Paddle
 
 @export var speed = 500
 
@@ -9,4 +10,4 @@ func _physics_process(_delta: float) -> void:
 	elif Input.is_action_pressed("move_down"):
 		movement = Vector2.DOWN
 
-	linear_velocity = movement * speed
+	linear_velocity = movement * speed 

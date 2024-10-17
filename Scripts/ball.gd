@@ -18,5 +18,6 @@ func _physics_process(delta: float) -> void:
 
 func start_ball():
 	randomize()
+	
 	velocity.x = [-1, 1][randi() % 2] * initial_ball_speed
 	velocity.y = [-.8, .8][randi() %2] * initial_ball_speed
