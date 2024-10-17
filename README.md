@@ -1,7 +1,5 @@
-# Hello Cyberpotato!
+# Pong Godot
 
-Thanks for the tutorial!  
-Here's a gif of what is happening, I hope you can find a solution 
+This is a small project realized via Godot 4.3 
+The game is Pong based on the tutorial by [CyberPotato](https://www.youtube.com/watch?v=f9NUE7OrS7s) which I then changed a bit. 
 
-
-![pong_bug2](https://github.com/user-attachments/assets/424be109-d5bb-43ac-98c9-f2e7f56187c5)
